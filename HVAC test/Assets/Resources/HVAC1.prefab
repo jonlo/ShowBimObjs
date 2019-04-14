@@ -1,0 +1,858 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1048542755234824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4334098429400358}
+  m_Layer: 0
+  m_Name: ObjData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4334098429400358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048542755234824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.989, y: -1.14, z: 2.86}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224774485840655878}
+  - {fileID: 4835734337061786}
+  m_Father: {fileID: 4078079425345710}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1084246030893922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224168388160109012}
+  - component: {fileID: 222734815864620150}
+  - component: {fileID: 114293575789896960}
+  m_Layer: 5
+  m_Name: back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224168388160109012
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084246030893922}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224774485840655878}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -222.99998, y: -4.0000134}
+  m_SizeDelta: {x: 2000, y: 3000}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222734815864620150
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084246030893922}
+  m_CullTransparentMesh: 0
+--- !u!114 &114293575789896960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084246030893922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: ac5030b0c72769949896f467f7868db9, type: 2}
+  m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!1 &1103624152014122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4835734337061786}
+  - component: {fileID: 120009805721327944}
+  m_Layer: 0
+  m_Name: Line
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4835734337061786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103624152014122}
+  m_LocalRotation: {x: 0.07875492, y: -0.5998168, z: -0.0028985823, w: 0.79624695}
+  m_LocalPosition: {x: -1.963, y: 1.597, z: -2.223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4334098429400358}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 7.004, y: -74.333, z: -5.7300005}
+--- !u!120 &120009805721327944
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103624152014122}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 93de04abdebdea4458e4df338e05860c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0.71}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 0.02
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0
+    generateLightingData: 0
+  m_UseWorldSpace: 0
+  m_Loop: 0
+--- !u!1 &1237868036161846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4336976481743450}
+  - component: {fileID: 114189650338151944}
+  m_Layer: 0
+  m_Name: IfcFlowTerminal.dae
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4336976481743450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237868036161846}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4518906092504028}
+  m_Father: {fileID: 4078079425345710}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114189650338151944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237868036161846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 866868759, guid: 8f32c36ad386be643af56036e3332769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FileDescription:
+  - Name: Description
+    Value: ViewDefinition [CoordinationView]
+  - Name: Implementation Level
+    Value: 2;1
+  FileName:
+  - Name: Name
+    Value: HVAC_Air-Conditioning_Apen-Group-S-P-A_Aerotermi-AB018.ifc
+  - Name: Author
+    Value: Supplier
+  - Name: Time Stamp
+    Value: 13/04/2019 9:52:08
+  - Name: Organization
+    Value: BIMobject
+  - Name: Authorization
+    Value: Full Scope
+  - Name: Originating System
+    Value: BIMobject-Lena
+  - Name: Preprocessor Version
+    Value: IFC Engine DLL 2017-09-06
+  FileSchema:
+  - Name: Schema Identifiers
+    Value: IFC2X3
+--- !u!1 &1430382621505288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224774485840655878}
+  - component: {fileID: 223934145174976820}
+  - component: {fileID: 114390305506291490}
+  - component: {fileID: 114363072189306446}
+  - component: {fileID: 11878964599091803}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224774485840655878
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430382621505288}
+  m_LocalRotation: {x: 0.0007570141, y: 0.99593693, z: -0.00004249863, w: -0.09005065}
+  m_LocalPosition: {x: 0, y: 0, z: -2.42}
+  m_LocalScale: {x: 0.0010999998, y: 0.0010999998, z: 0.10000001}
+  m_Children:
+  - {fileID: 224168388160109012}
+  - {fileID: 224231782094196490}
+  m_Father: {fileID: 4334098429400358}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.003, y: 190.333, z: 0.087000005}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -1.301, y: 0.562}
+  m_SizeDelta: {x: 999, y: 516}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!223 &223934145174976820
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430382621505288}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &114390305506291490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430382621505288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!114 &114363072189306446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430382621505288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &11878964599091803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430382621505288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd652575bbbdbf4fbaaea41c17d52ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1471542537572954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224231782094196490}
+  - component: {fileID: 222310138614373360}
+  - component: {fileID: 114466542661028324}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224231782094196490
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471542537572954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224774485840655878}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -223, y: 3}
+  m_SizeDelta: {x: 1950, y: 2950}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222310138614373360
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471542537572954}
+  m_CullTransparentMesh: 0
+--- !u!114 &114466542661028324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471542537572954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: ac5030b0c72769949896f467f7868db9, type: 2}
+  m_Color: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 55
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 84
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!1 &1792492338142208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4518906092504028}
+  - component: {fileID: 33948719039243388}
+  - component: {fileID: 23993272807269084}
+  - component: {fileID: 114398668782548996}
+  - component: {fileID: 114490135086137028}
+  - component: {fileID: 114539301635303042}
+  - component: {fileID: 114578478219069282}
+  m_Layer: 0
+  m_Name: Aerotermi AB018
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4518906092504028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792492338142208}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
+  m_Children: []
+  m_Father: {fileID: 4336976481743450}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33948719039243388
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792492338142208}
+  m_Mesh: {fileID: 4300000, guid: 8bb2bb0b251f69746ae8ee77e1d8d310, type: 3}
+--- !u!23 &23993272807269084
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792492338142208}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 93de04abdebdea4458e4df338e05860c, type: 2}
+  - {fileID: 2100000, guid: 73f13c30ba21cb14f92a4b530c3b879d, type: 2}
+  - {fileID: 2100000, guid: ec873f18db44feb4baa07ca554cd14d5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114398668782548996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792492338142208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1650590760, guid: 8f32c36ad386be643af56036e3332769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attributes:
+  - Name: Product Type
+    Value: IfcAirTerminalType
+  - Name: id
+    Value: 2TMd$Wa4PEUe3GfCf8BzBg
+  - Name: Name
+    Value: Aerotermi AB018
+  - Name: PredefinedType
+    Value: NOTDEFINED
+--- !u!114 &114490135086137028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792492338142208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -899126602, guid: 8f32c36ad386be643af56036e3332769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attributes:
+  - Name: Name
+    Value: ePset_BIMobject_BO
+  - Name: id
+    Value: 1tEE0i85P9qf0tV2RbFX7h
+  - Name: ProductName (BO_prodinfo)
+    Value: Aerotermi AB018
+  - Name: SKU (BO_prodsku)
+    Value: AB018
+  - Name: ManufacturName (BO_Manufac)
+    Value: Apen Group
+  - Name: BrandUrl (BO_brandurl)
+    Value: http://www.apengroup.com/en/
+  - Name: ProductFamily (BO_prodfam)
+    Value: Air heaters
+  - Name: ProductGroup (BO_prodgroup)
+    Value: AB
+  - Name: ManufacturCountry (BO_mancont)
+    Value: Italy
+  - Name: DesignCountry (BO_designcont)
+    Value: Italy
+  - Name: PublishDate (BO_publisdat)
+    Value: 4/11/2019
+  - Name: EditionNumber (BO_edinum)
+    Value: 1
+  - Name: Width (BO_width)
+    Value: 0
+  - Name: Height (BO_height)
+    Value: 0
+  - Name: Depth (BO_depth)
+    Value: 0
+  - Name: Weight (BO_weight)
+    Value: 0
+  - Name: ProductGuid (BO_productguid)
+    Value: cd52b80e-1f29-44da-afe8-aa19cadcdbd5
+  - Name: BO_links
+    Value: 
+  - Name: QR (BO_boqrurl)
+    Value: http://bimobject.com/apengroup/product/AB018
+  - Name: ProductDataUrl (BO_prodaturl)
+    Value: bimobject.com/apengroup/product/AB018
+  - Name: ProductUrl (BO_producturl)
+    Value: http://www.apengroup.com/en/industry-and-tertiary-sector/aky-boiler-and-aerotherm/
+  - Name: InstallationInstructions (BO_montins)
+    Value: 
+  - Name: ProductCertification (BO_prodcert)
+    Value: 
+  - Name: TechnicalDescription (BO_techcert)
+    Value: http://www.apengroup.com/apg/wp-content/uploads/2016/11/Depliant_AKY_eng.pdf
+  - Name: InstructionVideo (BO_youtube)
+    Value: 
+  - Name: GtinCode (BO_gtin)
+    Value: 
+  - Name: BO_real
+    Value: 
+  - Name: MaterialMain (BO_mainmat)
+    Value: Aluminium
+  - Name: MaterialSecondary (BO_secmat)
+    Value: 
+  - Name: BO_classific
+    Value: 
+  - Name: BimObjectMainCategory (BO_bomaincat)
+    Value: HVAC
+  - Name: BimObjectMainCategoryCode (BO_bomaincat_code)
+    Value: hvac
+  - Name: BimObjectCategory (BO_bocat)
+    Value: Air Conditioning
+  - Name: BimObjectCategoryCode (BO_bocat_code)
+    Value: hvac-air-con
+  - Name: IfcClassification (BO_ifcclas)
+    Value: Air Terminal
+  - Name: UnspcCode (BO_unspc)
+    Value: 40101701
+  - Name: Uniclass14Code (BO_uniclass_1_4_code)
+    Value: L7531
+  - Name: Uniclass14Description (BO_uniclass_1_4_desc)
+    Value: HVAC circulation pumps
+  - Name: Uniclass20Code (BO_uniclass_2_0_code)
+    Value: PR-60-38-02
+  - Name: Uniclass20Description (BO_uniclass_2_0_desc)
+    Value: Air To Air Heat Pumps
+  - Name: Uniclass2015Code (BO_uniclass2015_code)
+    Value: EF_65_80
+  - Name: Uniclass2015Description  (BO_uniclass2015_desc)
+    Value: Air conditioning
+  - Name: NBSReference (BO_nbs_ref)
+    Value: 03-03
+  - Name: NBSReferenceDescription (BO_nbs_desc)
+    Value: Air Conditioning Units
+  - Name: OmniClassCode (BO_omniclass_code)
+    Value: 23-33 15 17 17
+  - Name: OmniClassDescription (BO_omniclass_name)
+    Value: Fuel Fired HVAC Air Heaters
+  - Name: MasterFormat2014Code (BO_masterformat2014_code)
+    Value: 23 00 00
+  - Name: MasterFormat2014Description (BO_masterformat2014_name)
+    Value: Heating, Ventilating, and Air Conditioning (HVAC)
+  - Name: UniFormat2Code (BO_uniformat2_code)
+    Value: D30
+  - Name: UniFormat2Description (BO_uniformat2_name)
+    Value: HVAC
+  - Name: COBIeTypeCategory (BO_cobie_type_cat)
+    Value: 
+  - Name: BO_regions
+    Value: 
+  - Name: RegionEurope (BO_europe)
+    Value: AD, AL, AT, AX, BA, BE, BG, BY, CH, CY, CZ, DE, DK, EE, ES, FI, FO, FR,
+      GB, GG, GI, GR, HR, HU, IE, IM, IS, IT, JE, LI, LT, LU, LV, MC, MD, ME, MK,
+      MT, NL, NO, PL, PT, RO, RS, RU, SE, SI, SJ, SK, SM, UA, VA
+  - Name: RegionNorthAmerica (BO_northamerica)
+    Value: AG, AI, AW, BB, BL, BM, BQ, BS, BZ, CA, CR, CU, CW, DM, DO, GD, GL, GP,
+      GT, HN, HT, JM, KN, KY, LC, MF, MQ, MS, MX, NI, PA, PM, PR, SV, SX, TC, TT,
+      US, VC, VG, VI
+  - Name: RegionSouthAmerica (BO_southamerica)
+    Value: AR, BO, BR, CL, CO, EC, FK, GF, GY, PE, PY, SR, UY, VE
+  - Name: RegionMiddleEast (BO_middleeast)
+    Value: AE, AF, BH, EG, IL, IQ, IR, JO, KW, LB, OM, PS, QA, SA, SY, TR, YE
+  - Name: RegionAsia (BO_asia)
+    Value: AM, AZ, BD, BN, BT, CC, CN, CX, GE, HK, ID, IN, IO, JP, KG, KH, KP, KR,
+      KZ, LA, LK, MM, MN, MO, MV, MY, NP, PH, PK, SG, TH, TJ, TM, TW, UZ, VN
+  - Name: RegionOceania (BO_oceania)
+    Value: AS, AU, CK, FJ, FM, GU, KI, MH, MP, NC, NF, NR, NU, NZ, PF, PG, PN, PW,
+      SB, TK, TL, TO, TV, UM, WF, WS, VU
+  - Name: RegionAfrica (BO_africa)
+    Value: AO, BF, BI, BJ, BW, CD, CF, CG, CI, CM, CV, DJ, DZ, EH, ER, ET, GA, GH,
+      GM, GN, GQ, GW, KE, KM, LR, LS, LY, MA, MG, ML, MR, MU, MW, MZ, NA, NE, NG,
+      RE, RW, SC, SD, SH, SL, SN, SO, SS, ST, SZ, TD, TG, TN, TZ, UG, YT, ZA, ZM,
+      ZW
+  - Name: RegionAntarctica (BO_antarctica)
+    Value: AQ, BV, GS, HM, TF
+--- !u!114 &114539301635303042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792492338142208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -899126602, guid: 8f32c36ad386be643af56036e3332769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attributes:
+  - Name: Name
+    Value: ePset_BIMobjectScript
+  - Name: id
+    Value: 0WqStr3dD7DRJwL_$3d5Nb
+  - Name: LOD
+    Value: 300
+--- !u!114 &114578478219069282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792492338142208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1087555106, guid: 8f32c36ad386be643af56036e3332769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attributes:
+  - Name: Product Type
+    Value: IfcFlowTerminal
+  - Name: id
+    Value: 29ZBxAtcD5Kvo3tFF4b8hN
+  - Name: Name
+    Value: Aerotermi AB018
+  - Name: ObjectPlacement
+    Value: 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+--- !u!1 &1907947051312068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4078079425345710}
+  - component: {fileID: 114976411252752138}
+  - component: {fileID: 2589607438515618974}
+  m_Layer: 0
+  m_Name: HVAC1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4078079425345710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907947051312068}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4336976481743450}
+  - {fileID: 4334098429400358}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114976411252752138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907947051312068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 194a5b2c6385b274c904dd6ec4cc66b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineShader: {fileID: 4800000, guid: 4e76d4023d7e0411297c670f878973e2, type: 3}
+  standardShader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  okColor: {r: 0.050980397, g: 1, b: 0, a: 0.3019608}
+  wrongColor: {r: 1, g: 0.072127916, b: 0, a: 0.29411766}
+  id: 
+  modelId: HVAC1
+  position:
+    x: 0
+    y: 0
+    z: 0
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  isOk: 0
+  dataCanvas: {fileID: 1048542755234824}
+  mainMaterial: {fileID: 2100000, guid: ec873f18db44feb4baa07ca554cd14d5, type: 2}
+  BimPropertySet: {fileID: 114490135086137028}
+  text: {fileID: 114466542661028324}
+  meshRender: {fileID: 23993272807269084}
+--- !u!65 &2589607438515618974
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907947051312068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.771728, y: 1, z: 0.36241317}
+  m_Center: {x: 0.011807233, y: 0.41999996, z: 0.1377505}

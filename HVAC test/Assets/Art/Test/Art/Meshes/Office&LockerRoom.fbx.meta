@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: e58a24eb096eacc499d1d7b43e306fd1
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ConfigurationScreen
+    100002: ConfigurationScreenStick
+    100004: DoorFrame
+    100006: EstatisticsScreen
+    100008: Locker
+    100010: LockerFloor
+    100012: LockerRoof
+    100014: Mirror
+    100016: Office
+    100018: //RootNode
+    100020: OfficeFloor
+    100022: OfficeRoof
+    100024: OfficeWindow
+    100026: Wall_1
+    100028: Wall_1 1
+    100030: Wall_2
+    100032: Wall_2 1
+    100034: Wall_3
+    100036: Wall_3 1
+    100038: Wall_4
+    100040: Wall_4 1
+    100042: DoorOffice
+    100044: LockerFloo
+    400000: ConfigurationScreen
+    400002: ConfigurationScreenStick
+    400004: DoorFrame
+    400006: EstatisticsScreen
+    400008: Locker
+    400010: LockerFloor
+    400012: LockerRoof
+    400014: Mirror
+    400016: Office
+    400018: //RootNode
+    400020: OfficeFloor
+    400022: OfficeRoof
+    400024: OfficeWindow
+    400026: Wall_1
+    400028: Wall_1 1
+    400030: Wall_2
+    400032: Wall_2 1
+    400034: Wall_3
+    400036: Wall_3 1
+    400038: Wall_4
+    400040: Wall_4 1
+    400042: DoorOffice
+    400044: LockerFloo
+    2100000: Mirror_Mat
+    2100002: OfficeLockerRoom_Mat
+    2300000: ConfigurationScreen
+    2300002: ConfigurationScreenStick
+    2300004: DoorFrame
+    2300006: EstatisticsScreen
+    2300008: LockerFloor
+    2300010: LockerRoof
+    2300012: Mirror
+    2300014: OfficeFloor
+    2300016: OfficeRoof
+    2300018: OfficeWindow
+    2300020: Wall_1
+    2300022: Wall_1 1
+    2300024: Wall_2
+    2300026: Wall_2 1
+    2300028: Wall_3
+    2300030: Wall_3 1
+    2300032: Wall_4
+    2300034: Wall_4 1
+    2300036: DoorOffice
+    2300038: LockerFloo
+    3300000: ConfigurationScreen
+    3300002: ConfigurationScreenStick
+    3300004: DoorFrame
+    3300006: EstatisticsScreen
+    3300008: LockerFloor
+    3300010: LockerRoof
+    3300012: Mirror
+    3300014: OfficeFloor
+    3300016: OfficeRoof
+    3300018: OfficeWindow
+    3300020: Wall_1
+    3300022: Wall_1 1
+    3300024: Wall_2
+    3300026: Wall_2 1
+    3300028: Wall_3
+    3300030: Wall_3 1
+    3300032: Wall_4
+    3300034: Wall_4 1
+    3300036: DoorOffice
+    3300038: LockerFloo
+    4300000: Mirror
+    4300002: DoorFrame
+    4300004: LockerFloor
+    4300006: LockerRoof
+    4300008: Wall_1
+    4300010: Wall_2
+    4300012: Wall_3
+    4300014: Wall_4
+    4300016: EstatisticsScreen
+    4300018: ConfigurationScreen
+    4300020: ConfigurationScreenStick
+    4300022: OfficeRoof
+    4300024: OfficeFloor
+    4300026: OfficeWindow
+    4300028: Wall_4
+    4300030: Wall_3
+    4300032: Wall_2
+    4300034: Wall_1
+    4300036: DoorOffice
+    4300038: LockerFloo
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mirror_Mat
+    second: {fileID: 2100000, guid: cac859a71bc7caa4b9f9c499cd27e808, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OfficeLockerRoom_Mat
+    second: {fileID: 2100000, guid: 60b94ab7d8724b2449f1abf65e4ddccf, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

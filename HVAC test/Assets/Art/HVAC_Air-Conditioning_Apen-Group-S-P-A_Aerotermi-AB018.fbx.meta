@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 671d9b6ac1ffb7340b8c0018cef0a6f8
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mesh_11_968f8b96_1521_4988_9691_ef4f03e1cc66
+    100004: Mesh_13_ea3ea076_c809_4f21_af08_e33cc0a8ae2b
+    100006: Mesh_15_fd2a3e8b_53f0_4aba_aba8_4d31a07b64b4
+    100008: Mesh_17_6ab34860_be03_426f_a4c3_8d5e229eed02
+    100010: Mesh_19_0addba29_7401_481c_84f3_50f7b77c1c2e
+    100012: Mesh_1_043542bc_2abc_47cf_af05_de4ff43cc9ab
+    100014: Mesh_21_f3caa311_d489_4bb0_be0f_2af08bf80726
+    100016: Mesh_23_25eb0ce0_da8e_4a97_9ae2_d02ee123a4eb
+    100018: Mesh_25_11c2fec0_14da_4ab6_bb6c_61aa394e6cb9
+    100020: Mesh_3_48b20c9d_ae98_4fb8_9706_d835dc751c27
+    100022: Mesh_5_7e3e1b62_203c_4868_989e_1ba30cdb03ae
+    100024: Mesh_7_c239cb70_9148_4d56_ab51_e495401006b0
+    100026: Mesh_9_0dde75c8_bddc_4adc_a005_11369890e1ed
+    400000: //RootNode
+    400002: Mesh_11_968f8b96_1521_4988_9691_ef4f03e1cc66
+    400004: Mesh_13_ea3ea076_c809_4f21_af08_e33cc0a8ae2b
+    400006: Mesh_15_fd2a3e8b_53f0_4aba_aba8_4d31a07b64b4
+    400008: Mesh_17_6ab34860_be03_426f_a4c3_8d5e229eed02
+    400010: Mesh_19_0addba29_7401_481c_84f3_50f7b77c1c2e
+    400012: Mesh_1_043542bc_2abc_47cf_af05_de4ff43cc9ab
+    400014: Mesh_21_f3caa311_d489_4bb0_be0f_2af08bf80726
+    400016: Mesh_23_25eb0ce0_da8e_4a97_9ae2_d02ee123a4eb
+    400018: Mesh_25_11c2fec0_14da_4ab6_bb6c_61aa394e6cb9
+    400020: Mesh_3_48b20c9d_ae98_4fb8_9706_d835dc751c27
+    400022: Mesh_5_7e3e1b62_203c_4868_989e_1ba30cdb03ae
+    400024: Mesh_7_c239cb70_9148_4d56_ab51_e495401006b0
+    400026: Mesh_9_0dde75c8_bddc_4adc_a005_11369890e1ed
+    2100000: Pearl_1a006346_65ad_4280_9d3f_948b5dfdd4d1
+    2100002: Black_69119e8f_ee66_4a94_a4c5_fda2e07518b4
+    2100004: Dark Yellow_50ed7362_090b_49dd_82ae_3d5f70d80da1
+    2300000: Mesh_11_968f8b96_1521_4988_9691_ef4f03e1cc66
+    2300002: Mesh_13_ea3ea076_c809_4f21_af08_e33cc0a8ae2b
+    2300004: Mesh_15_fd2a3e8b_53f0_4aba_aba8_4d31a07b64b4
+    2300006: Mesh_17_6ab34860_be03_426f_a4c3_8d5e229eed02
+    2300008: Mesh_19_0addba29_7401_481c_84f3_50f7b77c1c2e
+    2300010: Mesh_1_043542bc_2abc_47cf_af05_de4ff43cc9ab
+    2300012: Mesh_21_f3caa311_d489_4bb0_be0f_2af08bf80726
+    2300014: Mesh_23_25eb0ce0_da8e_4a97_9ae2_d02ee123a4eb
+    2300016: Mesh_25_11c2fec0_14da_4ab6_bb6c_61aa394e6cb9
+    2300018: Mesh_3_48b20c9d_ae98_4fb8_9706_d835dc751c27
+    2300020: Mesh_5_7e3e1b62_203c_4868_989e_1ba30cdb03ae
+    2300022: Mesh_7_c239cb70_9148_4d56_ab51_e495401006b0
+    2300024: Mesh_9_0dde75c8_bddc_4adc_a005_11369890e1ed
+    3300000: Mesh_11_968f8b96_1521_4988_9691_ef4f03e1cc66
+    3300002: Mesh_13_ea3ea076_c809_4f21_af08_e33cc0a8ae2b
+    3300004: Mesh_15_fd2a3e8b_53f0_4aba_aba8_4d31a07b64b4
+    3300006: Mesh_17_6ab34860_be03_426f_a4c3_8d5e229eed02
+    3300008: Mesh_19_0addba29_7401_481c_84f3_50f7b77c1c2e
+    3300010: Mesh_1_043542bc_2abc_47cf_af05_de4ff43cc9ab
+    3300012: Mesh_21_f3caa311_d489_4bb0_be0f_2af08bf80726
+    3300014: Mesh_23_25eb0ce0_da8e_4a97_9ae2_d02ee123a4eb
+    3300016: Mesh_25_11c2fec0_14da_4ab6_bb6c_61aa394e6cb9
+    3300018: Mesh_3_48b20c9d_ae98_4fb8_9706_d835dc751c27
+    3300020: Mesh_5_7e3e1b62_203c_4868_989e_1ba30cdb03ae
+    3300022: Mesh_7_c239cb70_9148_4d56_ab51_e495401006b0
+    3300024: Mesh_9_0dde75c8_bddc_4adc_a005_11369890e1ed
+    4300000: Mesh_11_968f8b96_1521_4988_9691_ef4f03e1cc66
+    4300002: Mesh_13_ea3ea076_c809_4f21_af08_e33cc0a8ae2b
+    4300004: Mesh_15_fd2a3e8b_53f0_4aba_aba8_4d31a07b64b4
+    4300006: Mesh_17_6ab34860_be03_426f_a4c3_8d5e229eed02
+    4300008: Mesh_19_0addba29_7401_481c_84f3_50f7b77c1c2e
+    4300010: Mesh_1_043542bc_2abc_47cf_af05_de4ff43cc9ab
+    4300012: Mesh_21_f3caa311_d489_4bb0_be0f_2af08bf80726
+    4300014: Mesh_23_25eb0ce0_da8e_4a97_9ae2_d02ee123a4eb
+    4300016: Mesh_25_11c2fec0_14da_4ab6_bb6c_61aa394e6cb9
+    4300018: Mesh_3_48b20c9d_ae98_4fb8_9706_d835dc751c27
+    4300020: Mesh_5_7e3e1b62_203c_4868_989e_1ba30cdb03ae
+    4300022: Mesh_7_c239cb70_9148_4d56_ab51_e495401006b0
+    4300024: Mesh_9_0dde75c8_bddc_4adc_a005_11369890e1ed
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

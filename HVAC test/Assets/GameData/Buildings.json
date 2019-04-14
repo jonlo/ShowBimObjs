@@ -1,0 +1,56 @@
+[
+    {
+        "Id": "Building1",
+        "HVACs": [
+            {
+                "id": "Aero xx1",
+                "modelId": "HVAC1",
+                "isOk": true,
+                "position": {
+                    "x": "13.964",
+                    "y": "83.626",
+                    "z": "1.559999"
+                },
+                "rotation": {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0"
+                }
+
+            },
+            {
+                "id": "Out xx1",
+                "modelId": "HVAC2",
+                "isOk": false,
+                "position": {
+                    "x": "13.13",
+                    "y": "81.50871",
+                    "z": "7.78"
+                },
+                "rotation": {
+                    "x": "-90",
+                    "y": "0",
+                    "z": "0"
+                }
+
+            },
+            {
+                "id": "Aero xx2",
+                "modelId": "HVAC1",
+                "isOk": false,
+                "position": {
+                    "x": "9.78",
+                    "y": "83.27",
+                    "z": "5.93"
+                },
+                "rotation": {
+                    "x": "0",
+                    "y": "90",
+                    "z": "0"
+                }
+
+            }
+
+        ]
+    }
+]
