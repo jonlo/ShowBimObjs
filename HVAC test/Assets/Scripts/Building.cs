@@ -1,7 +1,7 @@
 ﻿
 
 using System;
-using Boo.Lang;
+using System.Collections.Generic;
 
 [Serializable]
 public class Building {
