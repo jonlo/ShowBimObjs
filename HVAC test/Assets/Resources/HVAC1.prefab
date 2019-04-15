@@ -241,7 +241,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4336976481743450}
-  - component: {fileID: 114189650338151944}
   m_Layer: 0
   m_Name: IfcFlowTerminal.dae
   m_TagString: Untagged
@@ -264,41 +263,6 @@ Transform:
   m_Father: {fileID: 4078079425345710}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114189650338151944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237868036161846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 866868759, guid: 8f32c36ad386be643af56036e3332769, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FileDescription:
-  - Name: Description
-    Value: ViewDefinition [CoordinationView]
-  - Name: Implementation Level
-    Value: 2;1
-  FileName:
-  - Name: Name
-    Value: HVAC_Air-Conditioning_Apen-Group-S-P-A_Aerotermi-AB018.ifc
-  - Name: Author
-    Value: Supplier
-  - Name: Time Stamp
-    Value: 13/04/2019 9:52:08
-  - Name: Organization
-    Value: BIMobject
-  - Name: Authorization
-    Value: Full Scope
-  - Name: Originating System
-    Value: BIMobject-Lena
-  - Name: Preprocessor Version
-    Value: IFC Engine DLL 2017-09-06
-  FileSchema:
-  - Name: Schema Identifiers
-    Value: IFC2X3
 --- !u!1 &1430382621505288
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,10 +466,7 @@ GameObject:
   - component: {fileID: 4518906092504028}
   - component: {fileID: 33948719039243388}
   - component: {fileID: 23993272807269084}
-  - component: {fileID: 114398668782548996}
   - component: {fileID: 114490135086137028}
-  - component: {fileID: 114539301635303042}
-  - component: {fileID: 114578478219069282}
   m_Layer: 0
   m_Name: Aerotermi AB018
   m_TagString: Untagged
@@ -574,27 +535,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &114398668782548996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792492338142208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1650590760, guid: 8f32c36ad386be643af56036e3332769, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attributes:
-  - Name: Product Type
-    Value: IfcAirTerminalType
-  - Name: id
-    Value: 2TMd$Wa4PEUe3GfCf8BzBg
-  - Name: Name
-    Value: Aerotermi AB018
-  - Name: PredefinedType
-    Value: NOTDEFINED
 --- !u!114 &114490135086137028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -737,46 +677,6 @@ MonoBehaviour:
       ZW
   - Name: RegionAntarctica (BO_antarctica)
     Value: AQ, BV, GS, HM, TF
---- !u!114 &114539301635303042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792492338142208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -899126602, guid: 8f32c36ad386be643af56036e3332769, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attributes:
-  - Name: Name
-    Value: ePset_BIMobjectScript
-  - Name: id
-    Value: 0WqStr3dD7DRJwL_$3d5Nb
-  - Name: LOD
-    Value: 300
---- !u!114 &114578478219069282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792492338142208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1087555106, guid: 8f32c36ad386be643af56036e3332769, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attributes:
-  - Name: Product Type
-    Value: IfcFlowTerminal
-  - Name: id
-    Value: 29ZBxAtcD5Kvo3tFF4b8hN
-  - Name: Name
-    Value: Aerotermi AB018
-  - Name: ObjectPlacement
-    Value: 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
 --- !u!1 &1907947051312068
 GameObject:
   m_ObjectHideFlags: 0
